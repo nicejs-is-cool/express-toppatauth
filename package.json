@@ -1,6 +1,6 @@
 {
   "name": "express-toppatauth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little package that allows to authenticate using the ToppatAuth Repl.",
   "main": "index.js",
   "scripts": {
