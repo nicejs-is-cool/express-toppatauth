@@ -5,7 +5,7 @@ function createHTTPDate(a) {
 
 module.exports = function(appname, surl, autoLogoutOnInvalidSession = true) {
     const urlr = new URL(surl);
-    const url = `${urlr.protocol}//${urlr.hostname}:${urlr.port || 80}`;
+    const url = `${urlr.protocol}//${urlr.hostname}:${urlr.port || (urlr.protocol === "https:" ? 443 : 80)}`;
     const taUrl = "https://toppatauth.tbsharedaccount.repl.co"
     /** 
      * @param {Express.Request} req
