@@ -1,7 +1,7 @@
 {
   "name": "express-toppatauth",
   "version": "1.0.0",
-  "description": "",
+  "description": "A little package that allows to authenticate using the ToppatAuth Repl.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
   "dependencies": {
     "axios": "^0.21.2",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicejs-is-cool/express-toppatauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicejs-is-cool/express-toppatauth/issues"
+  },
+  "homepage": "https://github.com/nicejs-is-cool/express-toppatauth#readme"
 }
